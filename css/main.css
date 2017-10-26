@@ -2,11 +2,12 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  padding-top: 80px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Poppins', monospace;
-  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
 }
 
 h1 {
@@ -15,8 +16,12 @@ h1 {
   margin-bottom: 100px;
 }
 
-h1 span.big-underline {
+h1 {
   text-shadow: rgba(100,10,255,0.4) 80px 80px, rgba(255,10,100,0.4) -80px -80px;
+}
+
+h1 a:hover {
+  color: #FFEB3B;
 }
 
 h5 {
@@ -45,6 +50,11 @@ h5 {
 	background: #000000;
 	opacity: 0.95;
 }
+
+
+
+/*   LAYOUT STYLING   */
+
 
 .experience-entry {
   margin-bottom: 60px;
@@ -89,7 +99,7 @@ div.entry-description li {
   margin-bottom: 12px;
 }
 
-.big-underline {
+/*.big-underline {
   border-bottom: 8px solid #FFEB3B;
   padding: 0px 20px 10px 0px;
   transition: ease all 0.25s;
@@ -100,10 +110,9 @@ div.entry-description li {
 
 .big-underline:hover {
   border-bottom: 12px solid #FFEB3B;
-}
+}*/
 
 .gradient {
-  padding-top: 80px;
   background: #00bcd4; /* Old browsers */
   background: -moz-linear-gradient(45deg, #00bcd4 0%, #304ffe 100%) fixed; /* FF3.6-15 */
   background: -webkit-linear-gradient(45deg, #00bcd4 0%, #304ffe 100%) fixed; /* Chrome10-25,Safari5.1-6 */
@@ -146,6 +155,42 @@ div.entry-description li {
   color: #FFEB3B;
   background-color: transparent;
 }
+
+
+/*   STYLING FOR HOMEPAGE 2   */
+
+.two {
+  background-color: #EF0048;
+  text-shadow: none;
+  color: #F99DB9;
+}
+
+h1 a.two:hover {
+  color: #B20036;
+  text-decoration: none;
+}
+
+div.entry-description h3.two {
+  margin-top: 0;
+  line-height: 1;
+  font-weight: 900;
+  color: #FFCFCF;
+}
+
+div.entry-description h4.two {
+  color: #FFCFCF;
+}
+
+div.entry-description h5.two {
+  color: #FFCFCF;
+}
+
+.entry-description.two {
+  border-left: 4px dashed #B20036;
+  padding-left: 30px;
+}
+
+
 
 @media (max-width: 667px) {
 
